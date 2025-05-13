@@ -1,0 +1,11 @@
+[
+    {
+        "type": "Outfit",
+        "item_id": 0,
+        "title": "Jeans wear",
+        "cost": 50.0,
+        "stock": 800,
+        "size": "small",
+        "fabric": "jeans"
+    }
+]
