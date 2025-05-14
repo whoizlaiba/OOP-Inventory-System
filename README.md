@@ -1,26 +1,4 @@
 
-Core Functionalities:
-
-Add new items with type-specific details
-
-Delete items by ID
-
-Search items by name or category
-
-List all available inventory
-
-Sell or restock items
-
-Calculate total inventory value
-
-Remove expired food items
-
-Auto-save and load inventory from a JSON file
-
-
-
----
-
 📁 File Structure
 
 Item (ABC): Abstract base class with common attributes and methods
@@ -49,7 +27,15 @@ A simple Python-based inventory management system that enables users to manage s
 - Tech: Includes brand and warranty
 - Food: Includes expiry date
 - Outfit: Includes size and fabric
-
+*Core Functionalities:*
+- Add new items with type-specific details
+- Delete items by ID
+- Search items by name or category
+- List all available inventory
+- Sell or restock items
+- Calculate total inventory value
+- Remove expired food items
+- Auto-save and load inventory from a JSON file
   
 ## Data Persistence
 
