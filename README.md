@@ -1,62 +1,76 @@
-# OOP-Inventory-System
-A simple Python-based inventory management system that allows users to manage stock for different product types—Tech, Food, and Outfit. Data is persistently stored in a JSON file (stock_data.json), supporting actions like adding, deleting, selling, and restocking items.
+OOP-Inventory-System
 
-Features
+A simple Python-based inventory management system that enables users to manage stock for various product types—Tech, Food, and Outfit. The system stores data persistently in a JSON file (stock_data.json) and supports operations like adding, deleting, selling, and restocking items.
+
+
+---
+
+✨ Features
 
 Item Categories:
 
-Tech: Includes brand and warranty.
+Tech: Includes brand and warranty
 
-Food: Includes expiry date.
+Food: Includes expiry date
 
-Outfit: Includes size and fabric.
+Outfit: Includes size and fabric
 
 
 Core Functionalities:
 
-Add new items with type-specific details.
+Add new items with type-specific details
 
-Delete items by ID.
+Delete items by ID
 
-Search items by name or category.
+Search items by name or category
 
-List all available inventory.
+List all available inventory
 
-Sell or restock items.
+Sell or restock items
 
-Calculate total inventory value.
+Calculate total inventory value
 
-Remove expired food items.
+Remove expired food items
 
-Auto-save and load inventory from JSON file.
-
-
-
-File Structure
-
-Item (ABC): Abstract base class for items with common attributes and methods.
-
-Tech, Food, Outfit: Subclasses with specific attributes and behaviors.
-
-Store: Manages a collection of items and supports all inventory operations.
-
-main(): Console-based user interface to interact with the system.
+Auto-save and load inventory from a JSON file
 
 
-Data Persistence
 
-Items are saved in a file called stock_data.json.
+---
 
-Automatically loads existing inventory on startup.
+📁 File Structure
+
+Item (ABC): Abstract base class with common attributes and methods
+
+Tech, Food, Outfit: Subclasses with specialized properties and logic
+
+Store: Manages all item collections and inventory operations
+
+main(): Provides a console-based user interface to interact with the system
 
 
-Usage
 
-Run the script with Python:
+---
+
+💾 Data Persistence
+
+Inventory data is stored in stock_data.json
+
+Automatically loads saved data when the program starts
+
+
+
+---
+
+▶️ Usage
+
+To run the system, use the following command in your terminal:
 
 python inventory_system.py
 
-Follow the on-screen menu to manage inventory easily.
+Then, simply follow the on-screen menu to manage your inventory with ease!
+
+
 
 
 
