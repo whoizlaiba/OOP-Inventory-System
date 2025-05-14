@@ -1,21 +1,4 @@
 
-📁 File Structure
-
-Item (ABC): Abstract base class with common attributes and methods
-
-Tech, Food, Outfit: Subclasses with specialized properties and logic
-
-Store: Manages all item collections and inventory operations
-
-main(): Provides a console-based user interface to interact with the system
-
-
-
-
-
-
-
-
 # OOP-Inventory-System
 
 A simple Python-based inventory management system that enables users to manage stock for various product types—Tech, Food, and Outfit. The system stores data persistently in a JSON file (stock_data.json) and supports operations like adding, deleting, selling, and restocking items.
@@ -39,7 +22,17 @@ A simple Python-based inventory management system that enables users to manage s
 - Calculate total inventory value
 - Remove expired food items
 - Auto-save and load inventory from a JSON file
-  
+
+ ## File Structure
+
+- Item (ABC): Abstract base class with common attributes and methods
+
+- Tech, Food, Outfit: Subclasses with specialized properties and logic
+
+- Store: Manages all item collections and inventory operations
+
+- main(): Provides a console-based user interface to interact with the system
+
 ## Data Persistence
 
 Inventory data is stored in stock_data.json
