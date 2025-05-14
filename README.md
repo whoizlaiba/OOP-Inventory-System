@@ -1,15 +1,4 @@
 
-✨ Features
-
-Item Categories:
-
-Tech: Includes brand and warranty
-
-Food: Includes expiry date
-
-Outfit: Includes size and fabric
-
-
 Core Functionalities:
 
 Add new items with type-specific details
@@ -55,9 +44,11 @@ A simple Python-based inventory management system that enables users to manage s
 
 
 ## Features
-- AES-based data encryption
-- Passkey-secured storage
-- Login lockout after failed attempts
+
+*Item Categories:*
+- Tech: Includes brand and warranty
+- Food: Includes expiry date
+- Outfit: Includes size and fabric
 
   
 ## Data Persistence
