@@ -35,9 +35,9 @@ A simple Python-based inventory management system that enables users to manage s
 
 ## Data Persistence
 
-Inventory data is stored in stock_data.json
+- Inventory data is stored in stock_data.json
 
-Automatically loads saved data when the program starts
+- Automatically loads saved data when the program starts
 
 ## Usage
 
