@@ -1,4 +1,4 @@
-# OOP-Inventory-System
+# OOP-Inventory-System📦🛒
 
 A simple Python-based inventory management system that enables users to manage stock for various product types—Tech, Food, and Outfit. The system stores data persistently in a JSON file (stock_data.json) and supports operations like adding, deleting, selling, and restocking items.
 
