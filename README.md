@@ -24,10 +24,13 @@ A simple Python-based inventory management system that enables users to manage s
 ## Features
 
 *Item Categories:*
+
 - Tech: Includes brand and warranty
 - Food: Includes expiry date
 - Outfit: Includes size and fabric
+
 *Core Functionalities:*
+
 - Add new items with type-specific details
 - Delete items by ID
 - Search items by name or category
